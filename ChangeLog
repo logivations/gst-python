@@ -29,21 +29,21 @@
 
 	* meson.build:
 	  Fixed meson.build to correctly use libdir
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/45>
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/45>
 
 2020-10-09 14:34:12 +0200  Stéphane Cerveau <scerveau@collabora.com>
 
 	* meson.build:
 	* plugin/meson.build:
 	  gstreamer-full: plugin can be registered statically.
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/43>
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/43>
 
 2020-10-08 12:56:10 +0200  Andoni Morales Alastruey <ylatuya@gmail.com>
 
 	* meson.build:
 	  macOS: Fix plugin link with Python 3.8
-	  see: https://gitlab.freedesktop.org/gstreamer/gst-python/-/issues/28
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/42>
+	  see: https://github.com/logivations/gst-python/-/issues/28
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/42>
 
 2020-09-08 17:30:59 +0100  Tim-Philipp Müller <tim@centricular.com>
 
@@ -71,7 +71,7 @@
 
 	* plugin/gstpythonplugin.c:
 	  Fix distcheck by setting up overrides in plugin init
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/40>
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/40>
 
 === release 1.17.90 ===
 
@@ -92,14 +92,14 @@
 	  this brings back the exact same API as before for all the previously
 	  handled cases but still raises an exception when using a context
 	  to map buffers.
-	  Fixes https://gitlab.freedesktop.org/gstreamer/gst-python/-/issues/40
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/39>
+	  Fixes https://github.com/logivations/gst-python/-/issues/40
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/39>
 
 2020-05-08 22:01:50 +0100  Jose Quaresma <quaresma.jose@gmail.com>
 
 	* gi/overrides/gstmodule.c:
 	  overrides: memory and buffer unmap code can be shared
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/35>
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/35>
 
 2020-05-08 21:25:03 +0100  Jose Quaresma <quaresma.jose@gmail.com>
 
@@ -108,7 +108,7 @@
 	  - unref PyObject on exit with Py_XDECREF
 	  - better error handling
 	  - free memory view in case of erros
-	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gst-python/-/merge_requests/34>
+	  Part-of: <https://github.com/logivations/gst-python/-/merge_requests/34>
 
 2020-06-14 16:54:28 +0100  Jose Quaresma <quaresma.jose@gmail.com>
 
@@ -209,7 +209,7 @@
 	  Since Python 3.8 the normal checks don't include the Python libraries
 	  anymore and linking of the gst-python module would fail.
 	  See also https://github.com/mesonbuild/meson/issues/5629
-	  Fixes https://gitlab.freedesktop.org/gstreamer/gst-python/issues/28
+	  Fixes https://github.com/logivations/gst-python/issues/28
 
 2019-12-11 08:14:16 -0300  Thibault Saunier <tsaunier@igalia.com>
 
@@ -425,7 +425,7 @@
 	  1. the type check on the pad has been removed because self is
 	  guaranteed to be a Gst.Pad in python.
 	  2. the null check on the caps has been extended to be a type check.
-	  Fixes https://gitlab.freedesktop.org/gstreamer/gst-python/issues/19
+	  Fixes https://github.com/logivations/gst-python/issues/19
 
 2018-12-30 23:53:03 +0000  Tim-Philipp Müller <tim@centricular.com>
 
